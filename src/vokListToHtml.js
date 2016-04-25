@@ -1,5 +1,5 @@
 var styles = ""
-var head = "<!DOCTYPE html><html><head><title>Vokabelliste</title><styles>" + styles + "</styles></head><body>"
+var head = "<!DOCTYPE html><html><head><title>Vokabelliste</title><meta charset=\"utf-8\"<styles>" + styles + "</styles></head><body>"
 var footer = "</body></html>"
 var vokListToHtml = function (vokList) {
     var rows = vokList.map(function(vok) {
